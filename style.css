@@ -272,7 +272,39 @@ footer img {
     color: #FFFFFF;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 40px;
+    position: center;
+
 }
+
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375 rem 0.75 rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: center;
+
+ color: #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0 rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
 @media screen (max-width: 600) {
     flex-direction: columns;
     width: 100%;
